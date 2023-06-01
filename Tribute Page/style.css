@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+}
+
+body{
+    background-image: url("image2.jpg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 2000px 2000px;
+}
+
+.container
+{
+    height: 100%;
+    width:100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    background-image: url("image1.jpg");
+}
+
+q{
+    overflow-wrap: break-word;
+    margin-top: 12%;
+    font-size:xx-large;
+    margin-left: 10%;
+}
+
+h1{
+    margin-left: 35%;
+    margin-top: 30px;
+    font-family: cursive;
+}
+
+figure
+{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+figcaption{
+    margin-left: 40%;
+}
+
+img{
+    height: 14rem;
+    width: 20rem;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.main
+{
+    display: flex;
+}
+
+.content1
+{
+    display: flex;
+    margin-top: 2%;
+}
+
+#left
+{
+    width: 43%;
+    margin-left: 5%;
+}
+
+#right
+{
+    width: 43%;
+    margin-left: 5%;
+}
+
+.content2
+{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.scientist>h2{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.scientist>p{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+}
+
+.education>h2{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.education>p{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+}
+
+.president>h2{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.president>p{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3
+{
+    margin-left: 40%;
+    margin-top: 5%;
+    font-size: xx-large;
+}
